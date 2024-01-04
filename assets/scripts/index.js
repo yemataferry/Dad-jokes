@@ -21,14 +21,12 @@ generateJoke()
 //   })
 // }
 
-
 // USING THE async function
 
-async function generateJoke() {
-
+async function generateJoke () {
   const config = {
     headers: {
-      'Accept':'application/json'
+      Accept : 'application/json'
     }
   }
 
